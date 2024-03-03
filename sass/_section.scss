@@ -1,0 +1,304 @@
+#hero{
+    margin-top: 150px;
+    background: url(../images/hero\ -img.webp) no-repeat 100% center;
+    border-radius: 50px;
+}
+
+
+.hero__left__story__btn,.hero__left__pixel-8__btn{
+    width: 200px;
+    height: 55px;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: $secondaryColor;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    padding: 250px 50px;
+    gap: 50px;
+    width: 45%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img{
+    margin: 0 auto;
+}
+
+@media(max-width:770px){
+    .hero__left{
+        width: 80%;
+    }
+    .hero__right{
+        display: none;
+    }
+}
+
+@media(max-width:450px){
+    .hero__left{
+        width: 100%;
+    }
+}
+
+
+.design{
+    margin-top: 80px;
+    background: url(../images/girl-image.png)  no-repeat center;
+    border-radius: 50px;
+    background-size: 100%;
+    padding: 250px 50px ;
+}
+
+.explore__btn{
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    color: black;
+    background: $secondaryColor;
+}
+
+.design__left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 45%;
+}
+
+
+@media(max-width:770px){
+    .design__left{
+        width: 80%;
+    }
+}
+
+@media(max-width:450px){
+    .design__left{
+        width: 100%;
+    }
+}
+
+
+.android-14{
+    margin-top: 80px;
+    border: 1px solid transparent;
+    padding: 200px 50px;
+    border-radius: 50px;
+    background: url(../images/android-14.webp) no-repeat center 100%;
+}
+
+
+.android-14__btn{
+    width: 200px;
+    height: 55px;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: $secondaryColor;
+    // position: relative;
+}
+
+// .android-14 img{
+//     position: absolute;
+//     width: 25%;
+//     height: 60%;
+//     border-radius: 50px;
+//     left: 40%;
+//     z-index: 0;
+// }
+
+.android-14__left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+}
+
+.android__right{
+    width: 60%;
+}
+
+.android__right img{
+    border-radius: 30px;
+    height: 500px;
+    width: 250px;
+}
+
+
+
+.lets__you{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 200px 50px;
+    justify-content: space-between;
+    background: url(../images/lets\ you.webp) no-repeat 100%  center;
+    border-radius: 50px;
+}
+
+.lets-you__left,.lets-you__right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+@media(max-width:770px){
+    .lets-you__left{
+        width: 80%;
+    }
+    .lets-you__right{
+        display: none;
+    }
+}
+
+@media(max-width:450px){
+    .lets-you__left{
+        width: 100%;
+    }
+}
+
+.android__bot__btn{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.android__bot{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 200px 50px;
+    justify-content: space-between;
+    background: url(../images/android\ bot.png) no-repeat 100% center;
+    background-size: 100%;
+    border-radius: 50px;
+}
+
+.android__bot__left,.android__bot__right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.android__bot__btn:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+}
+
+@media(max-width:770px){
+    .android__bot__left{
+        width: 45%;
+    }
+    .android__bot__right{
+        display: none;
+    }
+}
+
+@media(max-width:450px){
+    .android__bot__left{
+        width: 100%;
+    }
+}
+
+.shop{
+    display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.shop__cards__card img{
+    width: 100%;
+}
+
+.shop__cards__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 25px;
+    border-radius: 30px;
+    background-color: bisque;
+    width: 30%;
+}
+
+.shop__btn{
+    color: black;
+    background: transparent;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid $primaryColor;
+}
+
+.shop__btn:hover{
+    background: $primaryColor;
+    color: $secondaryColor;
+    transition: 0.4s;
+}
+
+.flip5{
+    background: rgb(214, 255, 214);
+}
+
+.fold5{
+    background: rgb(232, 199, 250);
+}
+
+.shop__cards__bottom{
+    flex-direction: row-reverse;
+}
+
+@media(max-width:770px){
+    .shop__cards__bottom,.shop__cards__top{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .shop__cards__card{
+        width: 45%;
+    }
+}
+
+@media(max-width:770px){
+    .shop__cards__card{
+        width: 80%;
+    }
+}
+
+@media(max-width:500px){
+    .shop__cards__card{
+        width: 100%;
+    }
+}
+
+.see__all__phones__btn{
+    background-color: $primaryColor;
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid $primaryColor;
+    color: $secondaryColor;
+}
+
+.see__all__phones__btn:hover{
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    transition: 0.4s;
+}
